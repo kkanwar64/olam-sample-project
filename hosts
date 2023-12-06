@@ -1,11 +1,11 @@
 [linux_nodes]
-10.0.0.163
+10.0.0.146
 
 [linux_nodes:vars]
 ansible_python_interpreter=/usr/bin/python3
 
 [windows_nodes]
-10.0.0.49
+10.0.0.22
 [windows_nodes:vars]
 ansible_connection=winrm
 ansible_winrm_server_cert_validation=ignore
