@@ -1,8 +1,8 @@
 ---
-- project_name: OLAM Build 2.1
+- project_name: OLAM Build Party
 - playbook: playbook.yml
 - inventory:
   - name: Linux
-    host_filter: 10.0.0.146
+    host_filter: 10.0.0.36
   - name: Windows
-    host_filter: 10.0.0.22
+    host_filter: 10.0.0.247
